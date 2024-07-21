@@ -28,10 +28,10 @@
  .header > .logo ion-icon{
     font-size: 2em;
     margin-bottom: 30px;
-    padding-left: 10px;
+/*     padding-left: 10px; */
  }
  .header > .logo{
-    margin-left: 400px;
+    margin-left: 350px;
     /* padding-left: 10px; */
      
  }
