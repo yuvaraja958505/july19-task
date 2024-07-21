@@ -1,0 +1,474 @@
+ *{
+    margin: 0;
+    left: 0;
+    
+ }
+ .header{
+    display: flex;
+    /* border: 3px solid black; */
+    background-color: aliceblue;
+ }
+ .header ul{
+    display: flex;
+    margin-top: 40px;
+
+ }
+ .header ul li{
+    list-style-type: none;
+    margin-left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .header ul li a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+ }
+ .header ul li a:hover{
+    color: orangered;
+ }
+ .header > .logo ion-icon{
+    font-size: 2em;
+    margin-bottom: 30px;
+    padding-left: 10px;
+ }
+ .header > .logo{
+    margin-left: 400px;
+    /* padding-left: 10px; */
+     
+ }
+ .header > .logo ion-icon:hover{
+    color: orangered;
+ }
+ .section1{
+    width: 100%;
+    position: relative;
+ }
+ .section1 h2{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: orangered;
+    opacity: 0;
+    transition: 0.6s;
+    font-size: 40px;
+
+ }
+ .section1 h2:hover{
+    opacity: 1;
+
+ }
+ .section1 h2 button{
+    width: 120px;
+    padding: 20px;
+    /* justify-content: center; */
+    text-align: center;
+    /* align-items: center; */
+    margin-left: 47%;
+    /* background-clip:text; */
+    color: rgb(12, 12, 12);
+    border: 2px solid orangered;
+    background-color: orangered;
+ }
+ .section1 h2 button:hover{
+    /* background-color: orangered; */
+    background-clip: text;
+    color: orangered;
+    cursor: pointer;
+ }
+ .section2{
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+ .section2{
+    width: 90%;
+    position: relative;
+ }
+ .section2 h2{
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    opacity: 1;
+    transition: 0.6s;
+    color: white;
+    font-size: 30px;
+ }
+ .section2 h2:hover{
+    opacity: 0;
+ }
+ .flex-container{
+    display: flex;
+    margin-top: 100px;
+ }
+ .flex-container .box1,.box2,.box3{
+    margin-left: 70px;
+    /* padding: 10px; */
+ }
+ .flex-container img{
+    padding: 10px;
+    border-radius: 10px;
+ }
+ .flex-container img:hover{
+    background-color: rgb(171, 171, 171);
+ }
+ .flex-container .box1,.box2,.box3,a{
+    text-decoration: none;
+    color: black;
+ }
+ .flex-container .box1,.box2,.box3,a:hover{
+    color: orangered;
+    cursor: pointer;
+ }
+ .flex-container1{
+    display: flex;
+    margin-top: 100px;
+ }
+ .flex-container1 img{
+    padding: 10px;
+    border-radius: 10px;
+ }
+ .flex-container1 img:hover{
+    background-color: rgb(171, 171, 171);
+    filter: drop-shadow(black);
+ }
+ .flex-container1 .box4,.box5,.box6{
+    margin-left: 70px;
+    /* padding: 10px; */
+ }
+ .flex-container1 .box4,.box5,.box6,a:hover{
+    cursor: pointer;
+
+ }
+.flex-container1 p{
+    /* border: 3px solid black; */
+    width: 400px;
+    font-size: 20px;
+}
+.box-module{
+    border: 3px solid rgb(255, 255, 255);
+    background-color: black;
+    height: 610px;
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.box-module{
+    display: flex;
+    margin-top: 100px;
+    
+}
+.box-module > .box-container{
+    display: flex;
+    /* border: 3px solid white; */
+    width: 600px;
+    /* overflow: hidden; */
+    position: relative;
+
+}
+.box-module2{
+    display: flex;
+    position: absolute;
+    margin-top: -310px;
+    margin-left: 155px;
+    
+}
+.box-module > .insta{
+    color: white;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 200px;
+    /* border: 3px solid rgb(254, 254, 254); */
+    width: 300px;
+    height: 100px;
+    position: relative;
+}
+.box-module > .box-button{
+    
+    /* width: 200px; */
+    /* border: 3px solid white; */
+    height: 40px;
+    width: 100px;
+    margin-top:320px ;
+    margin-left: 1000px;
+    position: absolute;
+}
+.box-module button{
+    width: 150px;
+    padding: 20px;
+    background-color: orangered;
+    border: 2px solid orangered;
+}
+.box-module button,a{
+    color: black;
+}
+.box-module button,a:hover{
+    color: orangered;
+     
+}
+.box-module button:hover{
+    background-clip: text;
+}
+.section3{
+    margin-top: 100PX;
+    display: flex;
+    margin-left: 35%;
+}
+.section3 button{
+    padding: 20px;
+    width: 120px;
+    margin-top: -13px;
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: orangered;
+    border: 2px solid orangered;
+
+}
+.section3 button,a{
+    color: black;
+}
+.section3 button:hover{
+    background-clip: text;
+}
+.section4 p{
+    margin-top: 30px;
+    color: gray;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.footer{
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+.footer > .icon{
+    /* margin-top: 40px; */
+    font-size: 20px;
+    /* border: 3px solid white; */
+    padding: 10px;
+      
+    
+}
+.footer > .icon:hover{
+    color: orangered;
+    
+
+} 
+.footer h2{
+    margin-top: 20px;
+    padding-top: 30px;
+    /* border: 3px solid white; */
+    font-size: 30px;
+}
+
+.section5{
+   margin-top: 100px;
+}
+.section5 h1{
+   font-size: 50px;
+   margin-left: 50px;
+}
+.section5 p{
+   margin-top: 40px;
+   margin-left: 50px;
+   font-size: 20px;
+}
+.section5 h2{
+   margin-top: 40px;
+   margin-left: 50px;
+   font-size: 50px;
+}
+.section6{
+   display: flex;
+   margin-left: 50px;
+   margin-top: 50px;
+   /* position: relative; */
+}
+.section6 > .content1{
+   font-size: 3em;
+   color: orangered;
+}
+.section6 > .content2{
+   /* border: 3px solid black; */
+   width: 500px;
+   margin-left: 10px;
+   
+}
+.section6 > .content2 a{
+   font-size: 20px;
+   /* content: "";
+   bottom: -5px;
+   width: 100%; */
+}
+.section7{
+   display: flex;
+   margin-left: 60%;
+   margin-top: 50px;
+   /* position: absolute; */
+   /* border: 3px solid black; */
+
+}
+.section7 > .content3{
+   font-size: 3em;
+   color: orangered;
+}
+.section7 > .content4{
+   width: 500px;
+   margin-left: 10px;
+}
+.section7 > .content4 a{
+   font-size: 20px;
+   /* color: orangered; */
+}
+.section8{
+   display: flex;
+   margin-left: 50px;
+   margin-top: 50px;
+   /* position: absolute; */
+   /* border: 3px solid black; */
+
+}
+.section8 > .content5{
+   font-size: 3em;
+   color: orangered;
+}
+.section8 > .content6{
+   width: 500px;
+   margin-left: 10px;
+}
+.section8 > .content6 a{
+   font-size: 20px;
+}
+.section9{
+   display: flex;
+   margin-left: 60%;
+   margin-top: 50px;
+   /* position: absolute; */
+   /* border: 3px solid black; */
+
+}
+.section9 > .content7{
+   font-size: 3em;
+   color: orangered;
+}
+.section9 > .content8{
+   width: 500px;
+   margin-left: 10px;
+}
+.section9 > .content8 a{
+   font-size: 20px;
+   /* color: orangered; */
+}
+.latest{
+   margin-top: 50px;
+   margin-left: 80px;
+}
+.motogp{
+   margin-top: 50px;
+}
+.motogp h1{
+   font-size: 50px;
+   margin-left: 50px;
+}
+.motogp p{
+   font-size: 20px;
+   margin-left: 50px;
+   margin-top: 50px;
+   margin-right: 50px;
+}
+.content10{
+   margin-left: 20%;
+   margin-right: 20%;
+   padding: 30px;
+   display: flex;
+   margin-top: 50px;
+}
+.content11{
+   margin-left: 100px;
+}
+.content12{
+   /* width: 100%;
+   height: 100%; */
+   margin-left: 35%;
+   margin-top: 30px;
+
+}
+.requrment{
+   display: flex;
+   margin-top: 50px;
+   margin-left: 50px;
+   font-size: 20px;
+}
+.requrment h3{
+   text-align: left;
+}
+.requrment > .content13{
+   margin-left: 50px;
+   
+}
+.requrment > .content13,input{
+   width: 300px;
+   padding: 20px;
+}
+.requrment > .content14{
+   margin-left: 50px;margin-top: 20px;
+}
+.requrment > .content15{
+   margin-left: 50px;
+   margin-top: 20px;
+}
+.model{
+   margin-top: 50px;
+   /* display: flex; */
+}
+.model1{
+   display: flex;
+}
+.model h2{
+   font-size: 60px;
+   margin-left: 50px;
+}
+.model p{
+   margin-left: 100px;
+   margin-top: 50px;
+   margin-right: 100px;
+   font-size: 20px;
+
+}
+.model1{
+   margin-top: 50px;
+   margin-left: 100px;
+}
+.medul2{
+   margin-top: 60px;
+   padding-left: 100px;
+   margin-left: 50px;
+}
+.medul2 h2{
+   font-size: 50px;
+}
+.medul2 h3{
+   font-size: 30px;
+   margin-top: 30px;
+}
+.medul2 p{
+   font-size: 20px;
+   margin-top: 50px;
+}

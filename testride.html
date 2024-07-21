@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK A TEST RIDE</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+          }
+          
+          .container {
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+          }
+          
+          h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+          }
+          
+          .form-group {
+            margin-bottom: 15px;
+          }
+          
+          label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+          }
+          
+          input[type="text"],
+          input[type="tel"],
+          select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+          }
+          
+          button {
+            background-color: #ff6600;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            width: 100%;
+          }
+          
+          button:hover {
+            background-color: #e65100;
+          }
+          
+          .detect-button {
+            background-color: #ff6600;
+            color: #fff;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-left: 10px;
+          }
+          
+          .detect-button:hover {
+            background-color: #e65100;
+          }
+          
+          .privacy-policy {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 12px;
+            color: #333;
+          }
+          
+          .privacy-policy a {
+            color: #ff6600;
+            text-decoration: none;
+          }
+          
+          .whatsapp-toggle {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+          }
+          
+          .whatsapp-toggle label {
+            margin-left: 10px;
+          }
+          
+          .whatsapp-icon {
+            font-size: 20px;
+            color: #4CAF50;
+          }
+    </style>
+    
+</head>
+<body>
+  <div class="header">
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="model.html">MODELS</a></li>
+        <li><a href="testride.html">BOOK A TEST RIDE</a></li>
+        <li><a href="power.html">POWERPARTS & POWERWEAR</a></li>
+        <li><a href="racing.html">RACING</a></li>
+        <li><a href="ktmworld.html">KTM WORLD</a></li>
+        <li><a href="service.html">SERVICE</a></li>
+    </ul>
+    <div class="logo">
+        <ion-icon name="location-outline"></ion-icon>
+        <ion-icon name="globe-outline"></ion-icon>
+        <img src="./img/KTM-Logo.png" alt="logo" width="200px" height="100px">
+    </div>
+    
+</div> 
+    <div class="container">
+        <h1>Enquire Now</h1>
+        <p>Fill in the data to get a callback</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="mobile">Mobile Number *</label>
+            <input type="tel" id="mobile" name="mobile" required>
+          </div>
+          <div class="form-group">
+            <label for="model">Model *</label>
+            <select id="model" name="model" required>
+              <option value="">Select Model</option>
+              <option value="Model 1">Model 1</option>
+              <option value="Model 2">Model 2</option>
+              <option value="Model 3">Model 3</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location">
+            <button type="button" class="detect-button">Detect</button>
+          </div>
+          <div class="form-group">
+            <label for="dealer">Dealer</label>
+            <input type="text" id="dealer" name="dealer">
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+        <div class="privacy-policy">
+          By clicking on submit, you agree to our <a href="#">T&C</a> and 
+          <a href="#">Privacy Policy.</a>
+        </div>
+        <div class="whatsapp-toggle">
+          <input type="checkbox" id="whatsapp" name="whatsapp">
+          <label for="whatsapp">Get updates on WhatsApp</label>
+          <i class="whatsapp-icon"></i>
+        </div>
+      </div>
+      </body>
+      </html>
+</body>
+</html>
